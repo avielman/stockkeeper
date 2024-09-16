@@ -1,0 +1,5 @@
+body {
+    z-index: initial;
+    position: absolute;
+    display: contents;
+}

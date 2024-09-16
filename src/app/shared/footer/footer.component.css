@@ -1,0 +1,5 @@
+footer {
+    z-index: initial;
+    position: absolute;
+    display: contents;
+}
