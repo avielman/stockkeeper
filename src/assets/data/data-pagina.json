@@ -3,9 +3,10 @@
   "email": "avielman@gmail.com",
   "nombre_corto": "stockkeeper",
   "pagina_autor": "http://stockkeeper.com",
-  "facebook": "",
-  "twitter": "",
-  "instagram": "",
-  "tumblr": "",
+  "facebook": "https://facebook.com",
+  "twitter": "https://twitter.com",
+  "instagram": "https://instagram.com",
+  "pinterest": "https://pinterest.com",
+  "tumblr": "https://tumblr.com",
   "equipo_trabajo": []
 }
