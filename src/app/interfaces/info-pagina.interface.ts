@@ -13,3 +13,12 @@ export interface InfoPagina {
   tumblr?: string;
   equipo_trabajo?: any[];
 }
+
+export interface Equipo { 
+  Subtitulo?: string;
+  frase?: string;
+  nombre?: string;
+  twitter?: string;
+  url?: string;
+  subtitulo?: string;
+}
