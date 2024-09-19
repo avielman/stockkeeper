@@ -22,7 +22,6 @@ export class InfoPaginaService {
     this.http.get('assets/data/data-pagina.json').subscribe( (resp: InfoPagina) => {
       this.cargada = true;
       this.info = resp;
-      //console.log( resp );
     });
   }
 
@@ -30,7 +29,6 @@ export class InfoPaginaService {
     this.http.get('https://angular-html-4e9b5-default-rtdb.firebaseio.com/equipo.json').subscribe( (resp: any) => {
       this.cargada = true;
       this.equipo = resp;
-      console.log("1");
     })
   }
 }

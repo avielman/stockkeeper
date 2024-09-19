@@ -13,8 +13,6 @@ export class AboutComponent {
 
   constructor ( public InfoService: InfoPaginaService ) {
     this.equipo = InfoService;
-    console.log("Equipo:");
-//    console.log(InfoService.equipo);    
   } 
 
 }
