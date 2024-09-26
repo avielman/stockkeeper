@@ -9,19 +9,21 @@ import { ProductosService } from 'src/app/services/productos.service';
 })
 export class PortafolioComponent {
   productos_idx: any = {};
+  cargando = false;
 
   constructor( public productosService: ProductosService ) {
-    if (this.productos_idx.cargando = false) {
+    /*if (this.productos_idx.cargando = false) {
       this.cargarProductos(productosService);
-    } else {
+    } else { */
       setTimeout(() => {
         this.cargarProductos(productosService)
-      }, 10000);
-    }
+      }, 5000);
+    //}
   }
 
   cargarProductos(prodServ: ProductosService) {
     this.productos_idx = prodServ;
+    this.cargando = this.productos_idx.cargando;
     console.log(this.productos_idx);
     console.log(prodServ);
   }
