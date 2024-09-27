@@ -1,3 +1,4 @@
+/*
 export interface Producto {
   categoria?: string;
   desc1?: string;
@@ -7,10 +8,10 @@ export interface Producto {
   subtitulo1?: string;
   subtitulo2?: string;
 }
-
-export interface Producto_idx {
-  categoria?: string;
-  cod?: string;
-  titulo?: string;
-  url?: string;  
+*/
+export interface Producto {
+  categoria: string;
+  cod: string;
+  titulo: string;
+  url: string;  
 }

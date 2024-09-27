@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { Producto_idx } from 'src/app/interfaces/producto.interface';
+import { Component, OnInit } from '@angular/core';
+import { Producto } from 'src/app/interfaces/producto.interface';
 import { ProductosService } from 'src/app/services/productos.service';
 
 @Component({
@@ -8,8 +8,8 @@ import { ProductosService } from 'src/app/services/productos.service';
   styleUrls: ['./portafolio.component.css']
 })
 export class PortafolioComponent {
-  productos_idx: any = {};
-  cargando = false;
+  productos_idx: Producto[] = [];
+  cargando = true;  
 
   constructor( public productosService: ProductosService ) {
     /*if (this.productos_idx.cargando = false) {
@@ -22,10 +22,10 @@ export class PortafolioComponent {
   }
 
   cargarProductos(prodServ: ProductosService) {
-    this.productos_idx = prodServ;
-    this.cargando = this.productos_idx.cargando;
+    this.productos_idx = prodServ.producto;
+    this.cargando = false;
     console.log(this.productos_idx);
-    console.log(prodServ);
+    console.log(prodServ);    
   }
 
   ngOnInit() {
