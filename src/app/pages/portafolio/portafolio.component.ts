@@ -24,8 +24,6 @@ export class PortafolioComponent {
   cargarProductos(prodServ: ProductosService) {
     this.productos_idx = prodServ.producto;
     this.cargando = false;
-    console.log(this.productos_idx);
-    console.log(prodServ);    
   }
 
   ngOnInit() {
