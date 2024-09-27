@@ -6,3 +6,13 @@ header {
 }
 
 */
+
+bloque-derecho {
+    margin-right: 180px;
+    align-self: flex-end;
+    padding-right: 180px;
+    /*justify-self: right; 
+    justify-content: flex-end;*/
+
+    background-color: blue;
+}

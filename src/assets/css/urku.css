@@ -119,6 +119,7 @@ body {
           align-self: flex-start;
   margin-bottom: 3.4rem;
   margin-left: 7.7rem;
+  /*margin-right: 180px; */
   padding-top: .16rem;
   position: relative;
 }
@@ -1932,9 +1933,9 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
           align-items: center;
-  -webkit-align-self: baseline;
-  -ms-flex-item-align: baseline;
-          align-self: baseline;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: flex-start;
+          align-self: flex-start;
   display: none;
 }
 @media (min-width: 64em) {

@@ -12,13 +12,9 @@ export class PortafolioComponent {
   cargando = true;  
 
   constructor( public productosService: ProductosService ) {
-    /*if (this.productos_idx.cargando = false) {
-      this.cargarProductos(productosService);
-    } else { */
       setTimeout(() => {
         this.cargarProductos(productosService)
       }, 5000);
-    //}
   }
 
   cargarProductos(prodServ: ProductosService) {
@@ -28,6 +24,5 @@ export class PortafolioComponent {
 
   ngOnInit() {
     
-
   }
 }
